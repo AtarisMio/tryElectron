@@ -2,7 +2,7 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "start": "electron ."
   },
@@ -17,6 +17,34 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.7.8"
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-dynamic-import-node": "^1.1.0",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "classnames": "^2.2.5",
+    "electron": "^1.8.1",
+    "electron-builder": "^19.37.2",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "babel-preset-es2017-node7": "^0.5.2",
+    "babel-register": "^6.26.0",
+    "cson": "^4.1.0",
+    "electron-react-titlebar": "^0.5.0",
+    "gl-matrix": "^2.4.0",
+    "log4js": "^2.3.7",
+    "mnist": "^1.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-mosaic-component": "^1.0.2"
   }
 }
