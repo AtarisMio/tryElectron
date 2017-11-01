@@ -1,4 +1,4 @@
-import Neural from './neural';
+import { Neural } from './neural';
 
 export class Layer extends Array{
     preLayer = null;

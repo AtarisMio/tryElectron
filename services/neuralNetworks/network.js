@@ -1,6 +1,10 @@
-import Layer from './layer';
+import { Layer } from './layer';
 
 export class NeuralNetwork {
+
+    activationFunc = null;
+    activationFuncPrime = null;
+    feedForwardFunc = null;
     constructor(size_array) {
         this.length = size_array.length;
         let pre_layer = null;
@@ -12,9 +16,5 @@ export class NeuralNetwork {
         });
         this.inputLayer = this.layers[0];
         this.outputLayer = this.layers[this.length - 1];
-    }
-
-    updateSensor () {
-
     }
 }
